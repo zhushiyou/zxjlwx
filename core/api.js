@@ -2,7 +2,7 @@ var siteinfo = require("../siteinfo.js"), _api_root = "";
 
 if (-1 != siteinfo.acid) {
     var siteroot = siteinfo.siteroot.substr(0, siteinfo.siteroot.indexOf("app/index.php"));
-    _api_root = _api_root = siteroot + "addons/zjhj_mall/core/web/index.php?_acid=" + siteinfo.acid + "&r=api/";
+    _api_root = _api_root = siteroot + "web/index.php?_acid=" + siteinfo.acid + "&r=api/";
 } else _api_root = siteinfo.apiroot;
 
 var api = {

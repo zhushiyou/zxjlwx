@@ -4,17 +4,28 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"checkInvalidKey": true
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
-	"appid": "wx1cec1acaeb7b38b2",
+	"appid": "wx3a4ee34b4a8b5ac1",
 	"projectname": "%E5%9D%9A%E6%9E%9C%E4%BA%92%E8%81%94%E7%A6%BE%E5%8C%A0%E5%95%86%E5%9F%8E",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {

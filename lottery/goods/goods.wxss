@@ -182,7 +182,7 @@
     border-top: 1rpx solid #eee;
 }
 
-@import "../../__wuBaseWxss__/0.wxss";
+@import "../../wuBaseWxss/0.wxss";
 
 page {
     overflow-x: hidden;
